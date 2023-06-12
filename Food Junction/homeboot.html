@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+  <title>foodjunction</title>
+  <style type="text/css">
+    *{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;
+		}
+		header{
+			width: 100%;
+			height: 100vh;
+			background: url("");
+			background-size: 50% 90%;
+			background-repeat: no-repeat;
+			background-position: bottom right;
+			position: relative;
+		}
+		nav{
+			width: 100%;
+			height: 70px;
+			padding: 0px 70px;
+			background: white;
+			color: black;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 2px 0px 5px grey;
+		}
+		.logo{
+			font-weight: bold;
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.logo span{
+			color: brown;
+		}
+		.menu a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px;
+		}
+		.menu a:last-child{
+			background: brown;
+			color: white;
+			border-radius: 8px;
+		}
+
+		.h-text{
+			position: absolute;
+			top:20%;
+			left: 5%;
+			padding: 15px;
+
+		}
+		.h-text p{
+			color: #262626;
+			letter-spacing: 3px;
+			font-weight: bold;
+		}
+		.h-text h1{
+			font-size: 4em;
+			line-height: 1.5em;
+		}
+		.h-text h1 span{
+				color: brown;
+		}
+		.h-text h2{
+			font-size: 4em;
+			margin-bottom: 0.5em;
+		}
+		#order{
+			text-decoration: none;
+			color: white;
+			background: black;
+			border-radius: 8px;
+			padding: 10px 20px;
+		}
+		#dis{
+			text-decoration: none;
+			color: white;
+			background: #262626;
+			padding: 10px 20px;
+			border-radius: 8px;
+		}
+          .blink-bg{
+		color: #fff;
+		padding: 20px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 3s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	        { background-color: #04a1d5;}
+	}
+      
+		#moving{
+			position: absolute;
+			bottom: 15%;
+			left: 5%;
+		}
+		#moving img{
+			transition: 0.3s ease;
+		}
+		#moving img:hover{
+			transform: translateY(-20px);
+		}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Food Junction</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="
+collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home1.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div class="h-text">
+      <h1 class="display-4" style="font-size: 2.5rem;">Fun. Fast. Tasty. Delicious.</h1>
+      <h2 class="display-5" style="font-size: 1.5rem; color: red;">Once You <span><b>TRY IT,</b></span> You Will<span> <b>LOVE IT.</b></span></h2>
+      <br>
+      <br>
+      <div class="blink-bg"><b><i>Upto 35% Offer</i></b></div>
+      <br><br>
+      <br>
+      <h3><b><i>ORDER NOW</i></b></h3>
+      <br>
+      <br>
+    </div>
+    <div id="moving">
+      <img src="https://b.zmtcdn.com/data/brand_creatives/logos/9da52e2b69f19bb603227a750e788d33_1613214750.png?output-format=webp" width="100">
+      <img src="https://b.zmtcdn.com/data/brand_creatives/logos/c38f7540bcc5a38e918856ac06409056_1504531339.png?output-format=webp" width="100">
+      <img src="https://b.zmtcdn.com/data/brand_creatives/logos/852ecb32ce69b6a3dd2e7ed9ec2f5dc5_1630421870.png?output-format=webp" width="100">
+      <img src="https://b.zmtcdn.com/data/brand_creatives/logos/32d7efa7114468686994cd52a1ff0775_1625164115.png?output-format=webp" width="100">
+      <img src="https://b.zmtcdn.com/data/brand_creatives/logos/868e99c35e35fc2bae1dccc465ed4c82_1625159864.png?output-format=webp" width="100">
+    </div>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
